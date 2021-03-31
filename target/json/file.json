@@ -1,0 +1,103 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-31T08:11:33.437Z",
+        "line": 4,
+        "name": "User is able to open the browser, verify the title and search for product t-shirts",
+        "description": "",
+        "id": "vision-it-all-assignments;user-is-able-to-open-the-browser--verify-the-title-and-search-for-product-t-shirts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4626406600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Opend the Browser",
+            "match": {
+              "location": "stepdefs.StepDefs.user_opened_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20392791700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User redirected to the application url",
+            "match": {
+              "location": "stepdefs.StepDefs.redirect_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5777930300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Search for product \"t-shirts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"t-shirts\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefs.StepDefs.product_search(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1234877300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Search Result page is displayed",
+            "match": {
+              "location": "stepdefs.StepDefs.result_displyed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          }
+        ]
+      }
+    ],
+    "name": "Vision It All Assignments",
+    "description": "",
+    "id": "vision-it-all-assignments",
+    "keyword": "Feature",
+    "uri": "classpath:features/assignments.feature",
+    "tags": [
+      {
+        "name": "@ui",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@healthcheck",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 5
+        }
+      }
+    ]
+  }
+]
