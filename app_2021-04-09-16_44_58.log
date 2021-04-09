@@ -1,0 +1,5 @@
+2021-Apr-09 16:45:16 PM [main] INFO  stepdefs.StepDefs - Browser Invoked.
+2021-Apr-09 16:45:57 PM [main] INFO  pageobjects.Assignmentobjects - Page title matched: My Store
+2021-Apr-09 16:46:01 PM [main] INFO  pageobjects.Assignmentobjects - Search Result page displyed and Title MatchedSearch - My Store
+2021-Apr-09 16:46:04 PM [main] INFO  stepdefs.StepDefs - Browser Invoked.
+2021-Apr-09 16:46:23 PM [main] INFO  pageobjects.Assignmentobjects - Page title matched: My Store

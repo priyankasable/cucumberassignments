@@ -3,44 +3,63 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-03-31T08:11:33.437Z",
+        "start_timestamp": "2021-04-09T11:17:43.229Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5663792400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
         "line": 4,
         "name": "User is able to open the browser, verify the title and search for product t-shirts",
         "description": "",
         "id": "vision-it-all-assignments;user-is-able-to-open-the-browser--verify-the-title-and-search-for-product-t-shirts",
+        "after": [
+          {
+            "output": [
+              "Browser Closed"
+            ],
+            "result": {
+              "duration": 808255300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
             "result": {
-              "duration": 4626406600,
+              "duration": 19634872300,
               "status": "passed"
             },
             "line": 5,
-            "name": "User Opend the Browser",
+            "name": "User Opend the Home Page",
             "match": {
-              "location": "stepdefs.StepDefs.user_opened_browser()"
+              "location": "stepdefs.StepDefs.check_title()"
             },
             "keyword": "Given "
           },
           {
+            "output": [
+              "Product Searched: t-shirts"
+            ],
             "result": {
-              "duration": 20392791700,
+              "duration": 5851297100,
               "status": "passed"
             },
             "line": 6,
-            "name": "User redirected to the application url",
-            "match": {
-              "location": "stepdefs.StepDefs.redirect_homepage()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5777930300,
-              "status": "passed"
-            },
-            "line": 7,
             "name": "User Search for product \"t-shirts\"",
             "match": {
               "arguments": [
@@ -54,11 +73,14 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "Search Page Displayed"
+            ],
             "result": {
-              "duration": 1234877300,
+              "duration": 21014900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "Search Result page is displayed",
             "match": {
               "location": "stepdefs.StepDefs.result_displyed()"
@@ -74,9 +96,83 @@
             "name": "@healthcheck"
           }
         ]
+      },
+      {
+        "start_timestamp": "2021-04-09T11:18:15.517Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1754714800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "User is able to open the browser, check for logo",
+        "description": "",
+        "id": "vision-it-all-assignments;user-is-able-to-open-the-browser--check-for-logo",
+        "after": [
+          {
+            "output": [
+              "Browser Closed"
+            ],
+            "result": {
+              "duration": 780259500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "output": [
+              "Browser navigated to URL: http://automationpractice.com/"
+            ],
+            "result": {
+              "duration": 16657851200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Opend the Home Page",
+            "match": {
+              "location": "stepdefs.StepDefs.check_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "output": [
+              "User Check for Logo result is diplyed"
+            ],
+            "result": {
+              "duration": 217155000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Check for Logo result is diplyed",
+            "match": {
+              "location": "stepdefs.StepDefs.check_logo()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@healthcheck"
+          }
+        ]
       }
     ],
-    "name": "Vision It All Assignments",
+    "name": "Vision IT All Assignments",
     "description": "",
     "id": "vision-it-all-assignments",
     "keyword": "Feature",

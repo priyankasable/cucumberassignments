@@ -1,0 +1,6 @@
+2021-Apr-09 16:47:49 PM [main] INFO  stepdefs.StepDefs - Browser Invoked.
+2021-Apr-09 16:48:08 PM [main] INFO  pageobjects.Assignmentobjects - Page title matched: My Store
+2021-Apr-09 16:48:14 PM [main] INFO  pageobjects.Assignmentobjects - Search Result page displyed and Title MatchedSearch - My Store
+2021-Apr-09 16:48:17 PM [main] INFO  stepdefs.StepDefs - Browser Invoked.
+2021-Apr-09 16:48:33 PM [main] INFO  pageobjects.Assignmentobjects - Page title matched: My Store
+2021-Apr-09 16:48:34 PM [main] INFO  pageobjects.Assignmentobjects - Logo Test case Passed
